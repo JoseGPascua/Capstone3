@@ -45,3 +45,13 @@ video {
     object-fit: cover;
     z-index: -1;
 }
+/* Sign Up button CSS */
+#signupButton {
+    margin-top: 20px;
+    padding: 6px 10px;
+    font-size: 1.2em;
+    background-color: #ffff; /* Green color from Bootstrap */
+    color: black;
+    border: none;
+    border-radius: 6px;
+}

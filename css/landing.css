@@ -1,5 +1,4 @@
 /* Landing Page CSS */
-
 body {
     background-color: darkslategrey;
     display: flex;
@@ -19,8 +18,10 @@ main {
 
 #login-content {
     background-color: darkblue;
-    padding: 20px;
+    padding: 40px;
+    padding-left: 100px;
     border-radius: 8px;
+    
 }
 
 
@@ -32,4 +33,15 @@ main {
 
 .input-box input{
     border-radius: 6px;
+}
+
+/* Background video CSS */
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
